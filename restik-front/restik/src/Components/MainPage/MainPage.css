@@ -1,0 +1,146 @@
+.main-screen-img {
+    background-image: url("../../resource/img/jumbotron_1200.jpg");
+    height: 90vh;
+    margin: 20px 0;
+    background-size: cover;
+    box-shadow: 0px 0px 15px 4px #b60303ab;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-a {
+    transition: 0.3s;
+}
+
+.menu-a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px 4px rgb(107, 107, 107);
+}
+
+.menu-item-category {
+    position: absolute;
+    background-color: #434343a7;
+    color: white;
+    width: 100%;
+    line-height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px 5px 0 0;
+    bottom: 0;
+    right: 0;
+}
+
+.main-menu {
+    margin: 50px 0;
+}
+
+/* #special {
+    background-image: url("../../resource/img/jumbotron_1200.jpg");
+    background-size: cover;
+} */
+
+.menu-categories {
+    margin: 50px 0;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-categories-title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.menu-item {
+    width: 25%;
+}
+
+.menu-category-btn {
+    border: 0;
+    padding: 0;
+}
+
+.menu-category-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+}
+
+#breakfast {
+    background-image: url("../../resource/img/завтрак.jpeg");
+    background-position: center;
+}
+
+#soup {
+    background-image: url("../../resource/img/супы.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#street-food {
+    background-image: url("../../resource/img/стритфуд.jpeg");
+}
+
+#deserts {
+    background-image: url("../../resource/img/десерты.jpeg");
+}
+
+.menu-category-img:hover {
+    box-shadow: 0px 0px 5px 2px #ffffffdc;
+}
+
+.menu-category-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1b1b1be4;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+    border-radius: 5px 5px 0 0;
+}
+
+@media (max-width: 992px) {
+    .menu-item {
+        width: 30%;
+    }
+
+    .main-screen-img {
+        background-image: url("../../resource/img/jumbotron_992.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: 40%;
+    }
+
+    .main-screen-img {
+        background-image: url("../../resource/img/jumbotron_768.jpg");
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-item {
+        width: 350px;
+        height: 250px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .menu-items {
+        display: block;
+    }
+}

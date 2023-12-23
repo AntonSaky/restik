@@ -1,0 +1,138 @@
+.notifications{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    margin-left: auto;
+}
+h2 {
+    font-size: 22px;
+}
+
+.single-category {
+    margin-bottom: 30px;
+}
+
+.single-category-title {
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dish-item {
+    display: flex;
+    width: 49%; 
+    margin-top: 30px;
+}
+.img-and-btn{
+    width: 180%;
+    
+}
+.dish-item-img {
+    width: 100%;
+    height: 160px;
+    position: relative;
+    box-shadow: 0px 0px 7px 1px rgba(255, 255, 255, 0.318); 
+    border-radius: 5px;
+}
+
+.dish-item-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.dish-item-info {
+    margin-left: 15px;
+}
+.dish-item-price {
+    position: absolute;
+    bottom: -5px;
+    right: -10px;
+    background-color: #1b1b1be4;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.dish-item-title {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.dish-item-description {
+    color: #fff;
+    cursor: default;
+}
+
+.tobasket:hover {
+    background-color: #4b061f;
+    cursor: pointer;
+}
+.tobasket {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 5px 12px 5px;
+    background-color: #61122f;
+    margin-top: 7px;
+    border: none;
+    min-width: 75%;
+    max-width: 85%;
+}
+.tobasket p{
+    margin: 0;
+    font-size: 14px;
+    color: #f5bb3a !important;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.tobasket:disabled{
+    cursor: not-allowed;
+    opacity: 0.7;
+    background-color: #61122f;
+}
+
+
+@media (max-width: 768px) {
+    .dish-item {
+        width: 100%;
+
+    }
+
+    .dishes {
+        justify-content: center;
+
+    }
+
+    .dish-item-img {
+        height: 170px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dish-item {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .dish-item-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .dish-item-info {
+        width: 100%;
+    }
+}

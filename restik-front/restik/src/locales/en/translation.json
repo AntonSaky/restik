@@ -1,0 +1,45 @@
+{
+    "nav-main": "Home",
+    "nav-menu": "Menu",
+    "nav-basket": "Basket",
+    "nav-signIn": "sign in",
+    "nav-signOut": "sign out",
+
+    "currency": "byn",
+
+    "main-menu": "Our menu",
+    "main-breakfast": "breakfast",
+    "main-soup": "soup",
+    "main-deserts": "deserts",
+    "main-streetfood": "streetfood",
+
+    "single-cat-dishes": "Dishes",
+    "single-cat-add-to-basket": "Add to basket",
+
+    "notification-title": "Notification",
+    "notification-message": "Added to basket successfully",
+
+    "basket-empty": "There are no products in basket",
+    "basket-not-auth": "SignIn to add and watch products in basket ",
+    "basket-price": "Price:",
+
+    "order-make-order": "Make order",
+    "order-make-order-btn": "Order",
+    "order-name": "Name",
+    "order-surname": "Surname",
+    "order-street": "Street",
+    "order-building": "Building",
+    "order-flat": "flat",
+
+    "auth-signIn-title": "SignIn",
+    "auth-register-title": "Registration",
+    "auth-signIn-btn": "SignIn",
+    "auth-register-btn": "Registrate",
+    "auth-login": "Login",
+    "auth-password": "Password",
+
+    "footer-location": "Our location",
+
+    "success-order-text": "Ther order has confirmed successfully and will be delivered in 60 minutes:)",
+    "success-order-to-home": "Back to home"
+}

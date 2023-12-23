@@ -1,0 +1,29 @@
+.success-wrapper{
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    min-width: 450px;
+    min-height: 300px;
+    background-color: #f6b319;
+    padding: 40px 50px 40px 50px;
+    display: table;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #2c412c
+}
+.emoji{
+    font-size: 42px;
+    color: #3c663c
+}
+.tohome{
+    text-decoration: none;
+    color: maroon;
+}
+.tohome:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.order-message{
+    font-size: 32px;
+    margin: 20px 0;
+}

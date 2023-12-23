@@ -1,0 +1,47 @@
+{
+    "nav-main": "Главная",
+    "nav-menu": "Меню",
+    "nav-basket": "Корзина",
+    "nav-signIn": "Вход",
+    "nav-signOut": "Выход",
+
+    "currency": "руб",
+
+    "main-menu": "Наше меню",
+    "main-breakfast": "завтраки",
+    "main-soup": "супы",
+    "main-deserts": "десерты",
+    "main-streetfood": "стритфуд",
+
+    "single-cat-dishes": "Блюда",
+    "single-cat-add-to-basket": "Добавить в корзину",
+
+    "notification-title": "Уведомление",
+    "notification-message": "Успешно добавлено в корзину",
+
+    "basket-empty": "В корзине нет ещё товаров",
+    "basket-not-auth": "Авторизуйтесь, чтобы добавлять товары в корзину и просматривать их",
+    "basket-price": "Цена:",
+
+    "order-make-order": "Оформить заказ",
+    "order-make-order-btn": "Заказать",
+    "order-name": "Имя",
+    "order-surname": "Фамилия",
+    "order-street": "Улица",
+    "order-building": "Дом",
+    "order-flat": "кв.",
+
+    "auth-signIn-title": "Вход",
+    "auth-register-title": "Регистрация",
+    "auth-signIn-btn": "Войти",
+    "auth-register-btn": "Зарегистрироваться",
+    "auth-login": "Логин",
+    "auth-password": "Пароль",
+
+    "footer-location": "Наше расположение",
+
+    "success-order-text": "Ваш заказ успешно обработан и будет доставлен в течение 60 мин:)",
+    "success-order-to-home": "Вернуться на главную"
+
+
+}

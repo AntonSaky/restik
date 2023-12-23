@@ -1,0 +1,65 @@
+.order-header{
+    margin: 40px 0 25px 0;
+}
+
+.order-title{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-wrap{
+    text-align: center;
+}
+.input-container{
+    text-align: left;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+}
+.input{
+    padding: 3px 5px 4px 5px;
+    /* height: 30px; */
+    /* line-height: 60px; */
+    /* border: 2px solid #005d00; */
+    border:none;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.input:focus{
+    outline: none;
+}
+.order-info{
+    border-radius: 15px;
+    padding: 10px;
+    width: 220px;
+    background-color: #557c3e;
+    margin-bottom: 20px;
+}
+.order-info p{
+    color: white;
+    font-size: 16px;
+}
+#information{
+    display: none;
+}
+.order label{
+    color: white;
+    font-size: 16px;
+}
+.order-btn{
+    margin: 10px auto;
+    width: 220px;
+    padding: 7px 5px;
+    color: #61122f !important;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6b319;
+    display: block;
+    font-weight: bold;
+}
+.order-btn:hover{
+    background: #c59015;
+}

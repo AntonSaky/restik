@@ -1,0 +1,40 @@
+.lang {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.lang button {
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 5px;
+    background-color: #f6b319;
+}
+.ru-lang, .en-lang{
+    font-size: 16px;
+}
+.ru-lang {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-right: 1px solid black;
+    margin-right: 2px;
+}
+
+.en-lang {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left: 1px solid black;
+}
+
+.lang button.active {
+    border: 3px solid green;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.lang button:hover {
+    background-color: #fac444;
+    cursor: pointer;
+}

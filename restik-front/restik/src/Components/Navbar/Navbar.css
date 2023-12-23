@@ -1,0 +1,103 @@
+header {
+    background-color: #f6b319;
+    margin-bottom: 50px;
+}
+.brand a {
+    color: #557c3e;
+    font-size: 28px;
+}
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.logform {
+    width: auto;
+    height: auto;
+}
+
+.loginbtn {
+    color: #f6b319 !important;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #61122f;
+    margin-left: 5px;
+    border: none;
+}
+
+.loginbtn:hover {
+    background-color: #4b061f;
+}
+
+#tel {
+    font-weight: bold;
+    background-color: #61122f;
+    border-radius: 15px;
+    padding: 10px;
+    color: #f6b319;
+}
+
+#tel:hover {
+    background-color: #4b061f;
+}
+
+.telephone {
+    display: none;
+    font-weight: bold;
+    background-color: #61122f;
+    border-radius: 15px;
+    padding: 10px;
+    color: #f6b319;
+    width: 100%;
+    text-align: center;
+}
+.navigation-list{
+    list-style: none;
+}
+.navigation-list a {
+    margin-left: 20px;
+    transition: 0.3s;
+    color: maroon;
+}
+
+.navigation-list a:hover {
+    text-shadow: rgb(112, 11, 11) 1px 1px 2px;
+    color: #61122f;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    #tel {
+        display: none;
+    }
+
+    .telephone {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation-list {
+        display: block;
+    }
+
+    .navigation-list-item {
+        margin-bottom: 5px;
+    }
+
+    .telephone {
+        margin-bottom: 30px;
+    }
+}
